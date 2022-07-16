@@ -130,8 +130,14 @@ a {
 
 /* main */
 .business-service-section {
+  max-width: 1600px;
+    background-image: url(../photo/bg-img/head-im.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   background-color: var(--section-footer-bg-color);
   padding: 200px 0;
+  margin: 0 auto;
 }
 .business-service-headline {
   margin-bottom: 30px;
@@ -181,6 +187,7 @@ a {
   color: var(--headline-text-color);
 }
 .strengths-group-subtext {
+  width: 270px;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
