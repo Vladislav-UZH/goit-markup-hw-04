@@ -125,9 +125,10 @@ a {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
-.icon-svg{
+.icon-svg {
   margin-right: 10px;
-  fill: currentColor;}
+  fill: currentColor;
+}
 
 .navigation-contacts-link {
   padding: 32px 0;
@@ -138,10 +139,11 @@ a {
 /* main */
 .business-service-section {
   max-width: 1600px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../photo/bg-img/head-im.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../photo/bg-img/head-im.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-color: var(--section-footer-bg-color);
   padding: 200px 0;
   margin: 0 auto;
@@ -185,13 +187,13 @@ a {
   display: flex;
   gap: 30px;
 }
-.bg-icon{
+.bg-icon {
   margin-bottom: 30px;
   padding: 25px 100px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
-.strengths-icon{
+.strengths-icon {
   width: 70px;
   height: 70px;
 }
@@ -228,8 +230,9 @@ a {
   display: flex;
   gap: 30px;
 }
+/*  */
 /* Our team */
-
+/* s */
 .teammates-section {
   background-color: var(--teammates-section-bg-color);
   padding: 94px 0 94px 0;
@@ -272,39 +275,53 @@ a {
   font-size: 16px;
   line-height: calc(19 / 16);
   /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-
+.teammates-networks-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.teammetes-networks-link{
+  width: 44px;
+  height: 44px;
+  background-color:var(--link-hover-text-color);
+}
 /* regular-customers */
-.regular-custm-title{
+.regular-custm-title {
   margin-bottom: 30px;
   font-size: 36px;
-    line-height: calc(42 / 36);
-    text-align: center;
-    letter-spacing: 0.03em;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.regul-logos{
+.regul-logos {
   display: flex;
-  justify-content: center;
+
   gap: 30px;
 }
-.regular-logos-item{
-  padding: 16px 32px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
+.regular-logos-link {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
-.regular-logos-svg{
-  fill: #AFB1B8;
+.regular-logos-svg {
+  fill: #afb1b8;
   width: 106px;
   height: 60px;
 }
-.regular-logos-svg:hover,.regular-logos-svg:focus{
-  fill: #2196F3;
+.regular-logos-svg:hover,
+.regular-logos-svg:focus {
+  fill: #2196f3;
 }
 /* footer */
 .footer {
@@ -312,7 +329,7 @@ a {
   padding-bottom: 60px;
   background-color: var(--section-footer-bg-color);
 }
-.footer-container{
+.footer-container {
   display: flex;
   align-items: center;
 }
@@ -364,27 +381,24 @@ a {
 .footer-mail-link {
   margin-bottom: 9px;
 }
-.address-container{
- margin-right: 70px;
+.address-container {
+  margin-right: 70px;
 }
-.networks-container{
 
-}
-.footer-networks-title{
+.footer-networks-title {
   margin-bottom: 20px;
   color: var(--footer-address-hover);
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-.footer-networks-list{
+.footer-networks-list {
   display: flex;
   gap: 10px;
-
 }
-.footer-networks-link{
-  background-color: #44454E;
+.footer-networks-link {
+  background-color: #44454e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -392,12 +406,16 @@ a {
   height: 44px;
   border-radius: 50%;
 }
-.footer-networks-link:hover,.footer-networks-link:focus{
+.footer-networks-link:hover,
+.footer-networks-link:focus {
   background-color: var(--link-hover-text-color);
 }
-.networks-svg{
+.networks-svg,.footer-networks-svg {
   width: 20px;
   height: 20px;
+  fill: #AFB1B8;
+}
+.footer-networks-svg{
   fill: var(--footer-address-hover);
 }
 /* /////////////////////////////////////////////////////////////////////////// */
