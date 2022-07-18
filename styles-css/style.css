@@ -124,6 +124,10 @@ a {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
+.icon-svg{
+  fill: currentColor;
+  margin-left: 10px;
+}
 .navigation-contacts-link {
   padding: 32px 0;
 }
