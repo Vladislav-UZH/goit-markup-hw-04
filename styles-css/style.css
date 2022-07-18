@@ -232,7 +232,8 @@ a {
 }
 /*  */
 /* Our team */
-/* s */
+/*  */
+/* TEAM */
 .teammates-section {
   background-color: var(--teammates-section-bg-color);
   padding: 94px 0 94px 0;
@@ -280,16 +281,27 @@ a {
   color: var(--main-text-color);
 }
 .teammates-networks-list{
+  margin-top: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
 .teammetes-networks-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  background-color:var(--link-hover-text-color);
+  border-radius: 50%;
 }
+
+.teammetes-networks-link:hover,.teammetes-networks-link:focus{
+  background-color: var(--link-hover-text-color);
+  --color4:var(--footer-address-hover) ;
+}
+
+  /*  */
 /* regular-customers */
 .regular-custm-title {
   margin-bottom: 30px;
@@ -415,6 +427,7 @@ a {
   height: 20px;
   fill: #AFB1B8;
 }
+
 .footer-networks-svg{
   fill: var(--footer-address-hover);
 }
