@@ -481,8 +481,7 @@ a {
   gap: var(--indent);
 }
 .main-section-item {
-  flex-grow: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-}
+  flex-grow: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));}
 .main-section-item-decription {
   padding: 20px 24px;
   background-color: var(--footer-address-hover);
