@@ -425,11 +425,10 @@ a {
 .networks-svg,.footer-networks-svg {
   width: 20px;
   height: 20px;
-  fill: #AFB1B8;
 }
 
 .footer-networks-svg{
-  fill: var(--footer-address-hover);
+  --color4: var(--footer-address-hover);
 }
 /* /////////////////////////////////////////////////////////////////////////// */
 /* ---portfolio.html--- */
