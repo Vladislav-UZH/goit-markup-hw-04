@@ -182,6 +182,17 @@ a {
   display: flex;
   gap: 30px;
 }
+.bg-icon{
+  gap: 30px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+}
+.strengths-icon{
+  width: 70px;
+  height: 70px;
+}
 .strengths-group-headline {
   margin-bottom: 10px;
   font-size: 14px;
