@@ -72,7 +72,7 @@ a {
 }
 /* logo-style */
 .logo-link {
-  margin-right: auto;
+  margin-right: 93px;
   font-family: var(--secondary-font);
   color: var(--logo-header-black);
   font-weight: 700;
