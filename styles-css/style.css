@@ -488,7 +488,7 @@ a {
 .main-section-item {
   flex-grow: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
-.main-section-item:hover,.main-section-item:focus {
+.main-section-link:hover,.main-section-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); ;
     }
 .main-section-item-decription {
